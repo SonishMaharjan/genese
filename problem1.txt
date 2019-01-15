@@ -1,0 +1,26 @@
+Algorithm:
+1. Set two initial values of Fibonacci Series:
+    a=1
+    b=2
+
+    And maximum value of series:
+    MAX = 4000000
+
+2. Define a temporary variables
+    x=0
+    sum=0
+
+3. while (a<= MAX)
+     {
+        if 'a' is EVEN NUMBER:
+        {
+            Add 'a' to 'sum' i.e--> sum = sum+a
+        }
+
+
+        x = a+b
+        a=b
+        b=x
+      }
+
+4. Print value of 'sum'
